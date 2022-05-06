@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+}
+
+.header{
+    background: url('headerbackground.jpg');
+    background-size: cover;
+    height: 50vw;
+}
+
+.logo{
+    height: 4vw;
+}
+
+.header a{
+    float: left;
+    padding: 20px;
+    font-size: 1vw;
+    color:white
+}
+
+.header-right {
+    float: right;
+    margin-top: 30px;
+}
+
+.glyphicon{
+    margin:2px;
+}
+
+.banner-text{
+    float: right;
+    margin-left: 50vw;
+    margin-top: 10vw;
+    font-size: 1.5vw;
+}
+
+.banner-text p{
+    font-size: 4vw;
+}
+
+.banner-text button{
+    height: 3.5vw;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid black;
+    transition: 0.7s;
+}
+
+.banner-text button:hover{
+    background-color: black;
+    color: orange;
+}
+
+.services{
+    text-align: center;
+    margin-top: 5vw;
+    margin-left: 2vw;
+}
+
+.text p{
+    color: orange;
+}
+
+.text span{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.selection div{
+    display: block;
+    float: left;
+    border: 1px solid black;
+    height: 13vw;
+    width: 12vw;
+    margin: 1%;
+}
+
+.selection img{
+    height: 35%;
+}
+
+.selection p{
+    font-size: 1vw;
+    color: black;
+    font-weight: bold;
+    padding: 1vw;
+}
+
+.clients{
+    margin-top: 5vw;
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 3vw;
+}
+
+.client-info p{
+    color: black;
+    font-size: 1vw;
+    padding: 1.2vw;
+}
+
+.client-info span{
+    font-size: 2vw;
+    font-weight: bold;
+    color: orange;
+}
+
+.client-info{
+    text-align: center;
+}
+
+.client-logos{
+    margin-top: 4vw;
+}
+
+.client-info img{
+    height: 10vw;
+    padding: 10px;
+}
+
+.footer{
+    background-color: black;
+    background-size: cover;
+    height: 70vw;
+    color: white;
+}
+
+.tag-line{
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.tag-line p{
+    font-size: 1.5vw;
+}
+
+.tag-line h3{
+    font-size: 2.5vw;
+
+}
+
+.left-text{
+    float: left;
+    width: 30vw;
+    padding-left: 10%;
+}
+
+.left-text p{
+    font-size: 1.3vw;
+}
+
+.left-text .glyphicon{
+    color: orange;
+}
+
+.left-text .address{
+    width: 100%;
+    padding-top: 35%;
+    padding-bottom: 12%;
+}
+
+.left-text .email{
+    padding-bottom: 12%;
+}
+
+.right-form{
+    float: right;
+    font-size: 1.2vw;
+    margin-right: 10%;
+    padding-top: 7%;
+}
+
+.right-form ::placeholder{
+    color: white;
+}
+
+.right-form input{
+    width:35vw;
+    padding-bottom: 1vw;
+    margin-bottom: 4%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.right-form textarea{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 2%;
+}
+
+.right-form button{
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid white;
+    color: orange;
+    width: 7vw;
+    height: 40px;
+    font-size: 0.8vw;
+    margin-right: 1vw;
+}
+
+.right-form button:hover{
+    background-color: rgba(255, 255, 255, 0.151);
+}
